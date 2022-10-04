@@ -34,7 +34,7 @@ public class FontDetector {
 
             pdfStripper.getText(pdfDocument);
             
-            System.out.println("-----The Fonts in the PDF-----");
+            System.out.println("-----The Fonts used in the PDF-----");
             
             for(String f:fonts){
                 System.out.println(f);
